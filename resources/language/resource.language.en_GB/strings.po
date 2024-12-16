@@ -37,3 +37,8 @@ msgstr ""
 msgctxt "#32003"
 msgid "Dim strength (percentage)"
 msgstr ""
+
+#: /resources/settings.xml
+msgctxt "#30004"
+msgid "Basic Settings"
+msgstr "Basic Settings"
