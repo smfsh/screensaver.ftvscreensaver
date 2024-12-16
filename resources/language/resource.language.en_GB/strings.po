@@ -1,16 +1,16 @@
 # fTV screensaver language file
 # Addon Name: fTV Mosaic Screensaver
 # Addon id: screensaver.fTVscreensaver
-# Addon Provider: sualfred
+# Addon Provider: smfsh
 # Translators:
-# sualfred <su4lfred@gmail.com>, 2019
+# smfsh <mills00013@gmail.com>, 2024
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: fTV Mosaic Screensaver\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2019-07-14 05:59+0000\n"
-"Last-Translator: sualfred <su4lfred@gmail.com>, 2019\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: smfsh <mills00013@gmail.com>, 2024\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"

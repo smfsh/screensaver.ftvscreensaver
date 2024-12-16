@@ -3,7 +3,10 @@
 
 ########################
 
-from kodi_six import xbmc, xbmcaddon, xbmcgui, xbmcvfs
+import xbmc
+import xbmcaddon
+import xbmcgui
+
 import json
 import os
 import sys
@@ -15,7 +18,7 @@ ADDON_ID = ADDON.getAddonInfo('id')
 ADDON_VERSION = ADDON.getAddonInfo('version')
 ADDON_PATH = ADDON.getAddonInfo('path')
 
-NOTICE = xbmc.LOGNOTICE
+INFO = xbmc.LOGINFO
 WARNING = xbmc.LOGWARNING
 DEBUG = xbmc.LOGDEBUG
 
@@ -23,7 +26,7 @@ DEBUG = xbmc.LOGDEBUG
 
 def log(txt,loglevel=DEBUG,force=False):
     if force:
-        loglevel = NOTICE
+        loglevel = INFO
     message = u'[ %s ] %s' % (ADDON_ID,txt)
     xbmc.log(msg=message, level=loglevel)
 

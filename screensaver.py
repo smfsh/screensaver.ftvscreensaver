@@ -1,14 +1,13 @@
-#!/usr/bin/python
-# coding: utf-8
-
-########################
-
-from __future__ import division
-
 import random
-from kodi_six import xbmc, xbmcaddon, xbmcgui, xbmcvfs
 
-from resources.lib.helper import *
+import xbmcaddon
+import xbmcvfs
+
+ADDON = xbmcaddon.Addon()
+CWD = ADDON.getAddonInfo('path')
+ADDONVERSION = ADDON.getAddonInfo('version')
+
+from lib.helper import *
 
 ########################
 
@@ -79,8 +78,8 @@ class Screensaver(xbmcgui.WindowXMLDialog):
 
             for media in ['Movies','TVShows']:
                 json_query = json_call('VideoLibrary.Get%s' % media,
-                                        properties=['art']
-                                        )
+                                       properties=['art']
+                                       )
 
                 try:
                     for item in json_query['result'][media.lower()]:
@@ -99,7 +98,7 @@ class Screensaver(xbmcgui.WindowXMLDialog):
         dirs, files = xbmcvfs.listdir(path)
 
         images = [
-            xbmc.validatePath(path + f) for f in files
+            xbmcvfs.validatePath(path + f) for f in files
             if f.lower()[-3:] in ('jpg', 'png')
         ]
 
@@ -110,7 +109,7 @@ class Screensaver(xbmcgui.WindowXMLDialog):
 
                 images.extend(
                     self.scan_folder(
-                        xbmc.validatePath('/'.join((path, directory, '')))
+                        xbmcvfs.validatePath('/'.join((path, directory, '')))
                     )
                 )
 
@@ -124,8 +123,9 @@ class Screensaver(xbmcgui.WindowXMLDialog):
             winprop('fTVscreensaver.Fanart.%s' % i, clear=True)
         self.close()
 
-
 if __name__ == '__main__':
-    screensaver = Screensaver('screensaver.fTVscreensaver.xml',ADDON_PATH,'default')
+    log('script version %s started' % ADDONVERSION)
+    screensaver = Screensaver('screensaver.fTVscreensaver.xml', CWD, 'default')
     screensaver.doModal()
     del screensaver
+log('script stopped')
