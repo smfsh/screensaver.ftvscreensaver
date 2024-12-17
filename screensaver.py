@@ -1,5 +1,6 @@
 import random
 
+import xbmc
 import xbmcaddon
 import xbmcvfs
 
@@ -19,6 +20,7 @@ REFRESH_INTERVAL = float(ADDON.getSetting('refresh'))
 SCROLLSPEED = int(ADDON.getSetting('scrollspeed'))
 RECURSIVE = ADDON.getSettingBool('recursive')
 SOURCE = ADDON.getSetting('source')
+FANART_LABEL = ADDON.getSettingBool('fanart_label')
 
 ########################
 
@@ -64,7 +66,14 @@ class Screensaver(xbmcgui.WindowXMLDialog):
             for i in range(1,8):
                 winprop('fTVscreensaver.Poster.%s' % i, random.choice(src_poster))
             for i in range(1,17):
-                winprop('fTVscreensaver.Fanart.%s' % i, random.choice(src_fanart))
+                winprop('fTVscreensaver.FanArt.Label.%s' % i, "")
+                if SOURCE == '1':
+                    winprop('fTVscreensaver.FanArt.Path.%s' % i, random.choice(src_fanart))
+                else:
+                    fanart, label = random.choice(src_fanart)
+                    winprop('fTVscreensaver.FanArt.Path.%s' % i, fanart)
+                    if FANART_LABEL:
+                        winprop('fTVscreensaver.Fanart.Label.%s' % i, label)
 
             MONITOR.waitForAbort(REFRESH_INTERVAL)
 
@@ -86,7 +95,9 @@ class Screensaver(xbmcgui.WindowXMLDialog):
                         if item['art'].get('poster'):
                             poster.append(item['art'].get('poster'))
                         if item['art'].get('fanart'):
-                            fanart.append(item['art'].get('fanart'))
+                            fanart_path = item.get('art', {}).get('fanart')
+                            label = item.get('label')
+                            fanart.append([fanart_path, label])
                 except Exception:
                     pass
 

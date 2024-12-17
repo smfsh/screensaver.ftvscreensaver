@@ -32,8 +32,20 @@
                     <height>525</height>
                     <width>700</width>
                     <aspectratio align="center">scale</aspectratio>
-                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.FanArt.1)]</texture>
+                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.Fanart.Path.1)]</texture>
                     <fadetime>1000</fadetime>
+                </control>
+                <control type="label">
+                    <left>0</left> <!-- Same position as the image -->
+                    <top>485</top> <!-- Label top = Image top + Image height - 40 -->
+                    <width>680</width> <!-- 20 px narrower than the image -->
+                    <height>40</height> <!-- Always 40 px -->
+                    <label>$INFO[Window(Home).Property(fTVscreensaver.Fanart.Label.1)]</label>
+                    <align>right</align>
+                    <aligny>bottom</aligny>
+                    <textcolor>AA808080</textcolor>
+                    <shadowcolor>55000000</shadowcolor>
+                    <font>font12</font>
                 </control>
                 <!-- #2 poster 1/2 -->
                 <control type="image" id="101">
@@ -62,8 +74,20 @@
                     <height>525</height>
                     <width>700</width>
                     <aspectratio align="center">scale</aspectratio>
-                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.FanArt.2)]</texture>
+                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.Fanart.Path.2)]</texture>
                     <fadetime>1000</fadetime>
+                </control>
+                <control type="label">
+                    <left>355</left> <!-- Same position as the image -->
+                    <top>1020</top> <!-- Label top = Image top + Image height - 40 -->
+                    <width>680</width> <!-- 20 px narrower than the image -->
+                    <height>40</height> <!-- Always 40 px -->
+                    <label>$INFO[Window(Home).Property(fTVscreensaver.Fanart.Label.2)]</label>
+                    <align>right</align>
+                    <aligny>bottom</aligny>
+                    <textcolor>AA808080</textcolor>
+                    <shadowcolor>55000000</shadowcolor>
+                    <font>font12</font>
                 </control>
             </control>
             <!-- 3x fanart -->
@@ -77,8 +101,20 @@
                     <height>346</height>
                     <width>461</width>
                     <aspectratio align="center">scale</aspectratio>
-                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.FanArt.3)]</texture>
+                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.Fanart.Path.3)]</texture>
                     <fadetime>1000</fadetime>
+                </control>
+                <control type="label">
+                    <left>0</left> <!-- Same position as the image -->
+                    <top>306</top> <!-- Label top = Image top + Image height - 40 -->
+                    <width>441</width> <!-- 20 px narrower than the image -->
+                    <height>40</height> <!-- Always 40 px -->
+                    <label>$INFO[Window(Home).Property(fTVscreensaver.Fanart.Label.3)]</label>
+                    <align>right</align>
+                    <aligny>bottom</aligny>
+                    <textcolor>AA808080</textcolor>
+                    <shadowcolor>55000000</shadowcolor>
+                    <font>font12</font>
                 </control>
                 <!-- #6 1/3 fanart -->
                 <control type="image" id="204">
@@ -87,8 +123,20 @@
                     <height>347</height>
                     <width>461</width>
                     <aspectratio align="center">scale</aspectratio>
-                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.FanArt.4)]</texture>
+                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.Fanart.Path.4)]</texture>
                     <fadetime>1000</fadetime>
+                </control>
+                <control type="label">
+                    <left>0</left> <!-- Same position as the image -->
+                    <top>663</top> <!-- Label top = Image top + Image height - 40 -->
+                    <width>441</width> <!-- 20 px narrower than the image -->
+                    <height>40</height> <!-- Always 40 px -->
+                    <label>$INFO[Window(Home).Property(fTVscreensaver.Fanart.Label.4)]</label>
+                    <align>right</align>
+                    <aligny>bottom</aligny>
+                    <textcolor>AA808080</textcolor>
+                    <shadowcolor>55000000</shadowcolor>
+                    <font>font12</font>
                 </control>
                 <!-- #7 1/3 fanart -->
                 <control type="image" id="205">
@@ -97,8 +145,20 @@
                     <height>347</height>
                     <width>461</width>
                     <aspectratio align="center">scale</aspectratio>
-                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.FanArt.5)]</texture>
+                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.Fanart.Path.5)]</texture>
                     <fadetime>1000</fadetime>
+                </control>
+                <control type="label">
+                    <left>0</left> <!-- Same position as the image -->
+                    <top>1020</top> <!-- Label top = Image top + Image height - 40 -->
+                    <width>441</width> <!-- 20 px narrower than the image -->
+                    <height>40</height> <!-- Always 40 px -->
+                    <label>$INFO[Window(Home).Property(fTVscreensaver.Fanart.Label.5)]</label>
+                    <align>right</align>
+                    <aligny>bottom</aligny>
+                    <textcolor>AA808080</textcolor>
+                    <shadowcolor>55000000</shadowcolor>
+                    <font>font12</font>
                 </control>
             </control>
             <!-- 1/3 fanart 2/3 poster -->
@@ -112,8 +172,20 @@
                     <height>346</height>
                     <width>463</width>
                     <aspectratio align="center">scale</aspectratio>
-                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.FanArt.6)]</texture>
+                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.Fanart.Path.6)]</texture>
                     <fadetime>1000</fadetime>
+                </control>
+                <control type="label">
+                    <left>0</left> <!-- Same position as the image -->
+                    <top>306</top> <!-- Label top = Image top + Image height - 40 -->
+                    <width>443</width> <!-- 20 px narrower than the image -->
+                    <height>40</height> <!-- Always 40 px -->
+                    <label>$INFO[Window(Home).Property(fTVscreensaver.Fanart.Label.6)]</label>
+                    <align>right</align>
+                    <aligny>bottom</aligny>
+                    <textcolor>AA808080</textcolor>
+                    <shadowcolor>55000000</shadowcolor>
+                    <font>font12</font>
                 </control>
                 <!-- #9 2/3 poster -->
                 <control type="image" id="103">
@@ -137,8 +209,20 @@
                     <height>525</height>
                     <width>700</width>
                     <aspectratio align="center">scale</aspectratio>
-                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.FanArt.7)]</texture>
+                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.Fanart.Path.7)]</texture>
                     <fadetime>1000</fadetime>
+                </control>
+                <control type="label">
+                    <left>0</left> <!-- Same position as the image -->
+                    <top>485</top> <!-- Label top = Image top + Image height - 40 -->
+                    <width>680</width> <!-- 20 px narrower than the image -->
+                    <height>40</height> <!-- Always 40 px -->
+                    <label>$INFO[Window(Home).Property(fTVscreensaver.Fanart.Label.7)]</label>
+                    <align>right</align>
+                    <aligny>bottom</aligny>
+                    <textcolor>AA808080</textcolor>
+                    <shadowcolor>55000000</shadowcolor>
+                    <font>font12</font>
                 </control>
                 <!-- #11 1/2 fanart -->
                 <control type="image" id="208">
@@ -147,8 +231,20 @@
                     <height>525</height>
                     <width>700</width>
                     <aspectratio align="center">scale</aspectratio>
-                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.FanArt.8)]</texture>
+                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.Fanart.Path.8)]</texture>
                     <fadetime>1000</fadetime>
+                </control>
+                <control type="label">
+                    <left>0</left> <!-- Same position as the image -->
+                    <top>1020</top> <!-- Label top = Image top + Image height - 40 -->
+                    <width>680</width> <!-- 20 px narrower than the image -->
+                    <height>40</height> <!-- Always 40 px -->
+                    <label>$INFO[Window(Home).Property(fTVscreensaver.Fanart.Label.8)]</label>
+                    <align>right</align>
+                    <aligny>bottom</aligny>
+                    <textcolor>AA808080</textcolor>
+                    <shadowcolor>55000000</shadowcolor>
+                    <font>font12</font>
                 </control>
             </control>
             <!-- poster fanart / fanart poster -->
@@ -172,8 +268,20 @@
                     <height>525</height>
                     <width>700</width>
                     <aspectratio align="center">scale</aspectratio>
-                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.FanArt.9)]</texture>
+                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.Fanart.Path.9)]</texture>
                     <fadetime>1000</fadetime>
+                </control>
+                <control type="label">
+                    <left>0</left> <!-- Same position as the image -->
+                    <top>1020</top> <!-- Label top = Image top + Image height - 40 -->
+                    <width>680</width> <!-- 20 px narrower than the image -->
+                    <height>40</height> <!-- Always 40 px -->
+                    <label>$INFO[Window(Home).Property(fTVscreensaver.Fanart.Label.9)]</label>
+                    <align>right</align>
+                    <aligny>bottom</aligny>
+                    <textcolor>AA808080</textcolor>
+                    <shadowcolor>55000000</shadowcolor>
+                    <font>font12</font>
                 </control>
                 <!-- #14 1/2 fanart -->
                 <control type="image" id="210">
@@ -182,8 +290,20 @@
                     <height>525</height>
                     <width>700</width>
                     <aspectratio align="center">scale</aspectratio>
-                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.FanArt.10)]</texture>
+                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.Fanart.Path.10)]</texture>
                     <fadetime>1000</fadetime>
+                </control>
+                <control type="label">
+                    <left>355</left> <!-- Same position as the image -->
+                    <top>485</top> <!-- Label top = Image top + Image height - 40 -->
+                    <width>680</width> <!-- 20 px narrower than the image -->
+                    <height>40</height> <!-- Always 40 px -->
+                    <label>$INFO[Window(Home).Property(fTVscreensaver.Fanart.Label.10)]</label>
+                    <align>right</align>
+                    <aligny>bottom</aligny>
+                    <textcolor>AA808080</textcolor>
+                    <shadowcolor>55000000</shadowcolor>
+                    <font>font12</font>
                 </control>
                 <!-- #15 poster 1/2 -->
                 <control type="image" id="105">
@@ -207,8 +327,20 @@
                     <height>346</height>
                     <width>461</width>
                     <aspectratio align="center">scale</aspectratio>
-                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.FanArt.11)]</texture>
+                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.Fanart.Path.11)]</texture>
                     <fadetime>1000</fadetime>
+                </control>
+                <control type="label">
+                    <left>0</left> <!-- Same position as the image -->
+                    <top>306</top> <!-- Label top = Image top + Image height - 40 -->
+                    <width>441</width> <!-- 20 px narrower than the image -->
+                    <height>40</height> <!-- Always 40 px -->
+                    <label>$INFO[Window(Home).Property(fTVscreensaver.Fanart.Label.11)]</label>
+                    <align>right</align>
+                    <aligny>bottom</aligny>
+                    <textcolor>AA808080</textcolor>
+                    <shadowcolor>55000000</shadowcolor>
+                    <font>font12</font>
                 </control>
                 <!-- #17 1/3 fanart -->
                 <control type="image" id="212">
@@ -217,8 +349,20 @@
                     <height>347</height>
                     <width>461</width>
                     <aspectratio align="center">scale</aspectratio>
-                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.FanArt.12)]</texture>
+                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.Fanart.Path.12)]</texture>
                     <fadetime>1000</fadetime>
+                </control>
+                <control type="label">
+                    <left>0</left> <!-- Same position as the image -->
+                    <top>663</top> <!-- Label top = Image top + Image height - 40 -->
+                    <width>441</width> <!-- 20 px narrower than the image -->
+                    <height>40</height> <!-- Always 40 px -->
+                    <label>$INFO[Window(Home).Property(fTVscreensaver.Fanart.Label.12)]</label>
+                    <align>right</align>
+                    <aligny>bottom</aligny>
+                    <textcolor>AA808080</textcolor>
+                    <shadowcolor>55000000</shadowcolor>
+                    <font>font12</font>
                 </control>
                 <!-- #18 1/3 fanart -->
                 <control type="image" id="213">
@@ -227,8 +371,20 @@
                     <height>347</height>
                     <width>461</width>
                     <aspectratio align="center">scale</aspectratio>
-                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.FanArt.13)]</texture>
+                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.Fanart.Path.13)]</texture>
                     <fadetime>1000</fadetime>
+                </control>
+                <control type="label">
+                    <left>0</left> <!-- Same position as the image -->
+                    <top>1020</top> <!-- Label top = Image top + Image height - 40 -->
+                    <width>441</width> <!-- 20 px narrower than the image -->
+                    <height>40</height> <!-- Always 40 px -->
+                    <label>$INFO[Window(Home).Property(fTVscreensaver.Fanart.Label.13)]</label>
+                    <align>right</align>
+                    <aligny>bottom</aligny>
+                    <textcolor>AA808080</textcolor>
+                    <shadowcolor>55000000</shadowcolor>
+                    <font>font12</font>
                 </control>
             </control>
             <!-- big poster -->
@@ -257,8 +413,20 @@
                     <height>525</height>
                     <width>700</width>
                     <aspectratio align="center">scale</aspectratio>
-                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.FanArt.14)]</texture>
+                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.Fanart.Path.14)]</texture>
                     <fadetime>1000</fadetime>
+                </control>
+                <control type="label">
+                    <left>0</left> <!-- Same position as the image -->
+                    <top>485</top> <!-- Label top = Image top + Image height - 40 -->
+                    <width>680</width> <!-- 20 px narrower than the image -->
+                    <height>40</height> <!-- Always 40 px -->
+                    <label>$INFO[Window(Home).Property(fTVscreensaver.Fanart.Label.14)]</label>
+                    <align>right</align>
+                    <aligny>bottom</aligny>
+                    <textcolor>AA808080</textcolor>
+                    <shadowcolor>55000000</shadowcolor>
+                    <font>font12</font>
                 </control>
                 <!-- #21 1/2 fanart -->
                 <control type="image" id="215">
@@ -267,8 +435,20 @@
                     <height>525</height>
                     <width>700</width>
                     <aspectratio align="center">scale</aspectratio>
-                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.FanArt.15)]</texture>
+                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.Fanart.Path.15)]</texture>
                     <fadetime>1000</fadetime>
+                </control>
+                <control type="label">
+                    <left>0</left> <!-- Same position as the image -->
+                    <top>1020</top> <!-- Label top = Image top + Image height - 40 -->
+                    <width>680</width> <!-- 20 px narrower than the image -->
+                    <height>40</height> <!-- Always 40 px -->
+                    <label>$INFO[Window(Home).Property(fTVscreensaver.Fanart.Label.15)]</label>
+                    <align>right</align>
+                    <aligny>bottom</aligny>
+                    <textcolor>AA808080</textcolor>
+                    <shadowcolor>55000000</shadowcolor>
+                    <font>font12</font>
                 </control>
             </control>
             <!-- 1/3 fanart 2/3 poster -->
@@ -292,8 +472,20 @@
                     <height>346</height>
                     <width>463</width>
                     <aspectratio align="center">scale</aspectratio>
-                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.FanArt.16)]</texture>
+                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.Fanart.Path.16)]</texture>
                     <fadetime>1000</fadetime>
+                </control>
+                <control type="label">
+                    <left>0</left> <!-- Same position as the image -->
+                    <top>1020</top> <!-- Label top = Image top + Image height - 40 -->
+                    <width>443</width> <!-- 20 px narrower than the image -->
+                    <height>40</height> <!-- Always 40 px -->
+                    <label>$INFO[Window(Home).Property(fTVscreensaver.Fanart.Label.16)]</label>
+                    <align>right</align>
+                    <aligny>bottom</aligny>
+                    <textcolor>AA808080</textcolor>
+                    <shadowcolor>55000000</shadowcolor>
+                    <font>font12</font>
                 </control>
             </control>
         </control>
@@ -318,8 +510,20 @@
                     <height>525</height>
                     <width>700</width>
                     <aspectratio align="center">scale</aspectratio>
-                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.FanArt.1)]</texture>
+                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.Fanart.Path.1)]</texture>
                     <fadetime>1000</fadetime>
+                </control>
+                <control type="label">
+                    <left>0</left> <!-- Same position as the image -->
+                    <top>485</top> <!-- Label top = Image top + Image height - 40 -->
+                    <width>680</width> <!-- 20 px narrower than the image -->
+                    <height>40</height> <!-- Always 40 px -->
+                    <label>$INFO[Window(Home).Property(fTVscreensaver.Fanart.Label.1)]</label>
+                    <align>right</align>
+                    <aligny>bottom</aligny>
+                    <textcolor>AA808080</textcolor>
+                    <shadowcolor>55000000</shadowcolor>
+                    <font>font12</font>
                 </control>
                 <!-- #2 poster 1/2 -->
                 <control type="image" id="101">
@@ -348,8 +552,20 @@
                     <height>525</height>
                     <width>700</width>
                     <aspectratio align="center">scale</aspectratio>
-                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.FanArt.2)]</texture>
+                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.Fanart.Path.2)]</texture>
                     <fadetime>1000</fadetime>
+                </control>
+                <control type="label">
+                    <left>355</left> <!-- Same position as the image -->
+                    <top>1020</top> <!-- Label top = Image top + Image height - 40 -->
+                    <width>680</width> <!-- 20 px narrower than the image -->
+                    <height>40</height> <!-- Always 40 px -->
+                    <label>$INFO[Window(Home).Property(fTVscreensaver.Fanart.Label.2)]</label>
+                    <align>right</align>
+                    <aligny>bottom</aligny>
+                    <textcolor>AA808080</textcolor>
+                    <shadowcolor>55000000</shadowcolor>
+                    <font>font12</font>
                 </control>
             </control>
             <!-- 3x fanart -->
@@ -363,8 +579,20 @@
                     <height>346</height>
                     <width>461</width>
                     <aspectratio align="center">scale</aspectratio>
-                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.FanArt.3)]</texture>
+                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.Fanart.Path.3)]</texture>
                     <fadetime>1000</fadetime>
+                </control>
+                <control type="label">
+                    <left>0</left> <!-- Same position as the image -->
+                    <top>306</top> <!-- Label top = Image top + Image height - 40 -->
+                    <width>441</width> <!-- 20 px narrower than the image -->
+                    <height>40</height> <!-- Always 40 px -->
+                    <label>$INFO[Window(Home).Property(fTVscreensaver.Fanart.Label.3)]</label>
+                    <align>right</align>
+                    <aligny>bottom</aligny>
+                    <textcolor>AA808080</textcolor>
+                    <shadowcolor>55000000</shadowcolor>
+                    <font>font12</font>
                 </control>
                 <!-- #6 1/3 fanart -->
                 <control type="image" id="204">
@@ -373,8 +601,20 @@
                     <height>347</height>
                     <width>461</width>
                     <aspectratio align="center">scale</aspectratio>
-                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.FanArt.4)]</texture>
+                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.Fanart.Path.4)]</texture>
                     <fadetime>1000</fadetime>
+                </control>
+                <control type="label">
+                    <left>0</left> <!-- Same position as the image -->
+                    <top>663</top> <!-- Label top = Image top + Image height - 40 -->
+                    <width>441</width> <!-- 20 px narrower than the image -->
+                    <height>40</height> <!-- Always 40 px -->
+                    <label>$INFO[Window(Home).Property(fTVscreensaver.Fanart.Label.4)]</label>
+                    <align>right</align>
+                    <aligny>bottom</aligny>
+                    <textcolor>AA808080</textcolor>
+                    <shadowcolor>55000000</shadowcolor>
+                    <font>font12</font>
                 </control>
                 <!-- #7 1/3 fanart -->
                 <control type="image" id="205">
@@ -383,8 +623,20 @@
                     <height>347</height>
                     <width>461</width>
                     <aspectratio align="center">scale</aspectratio>
-                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.FanArt.5)]</texture>
+                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.Fanart.Path.5)]</texture>
                     <fadetime>1000</fadetime>
+                </control>
+                <control type="label">
+                    <left>0</left> <!-- Same position as the image -->
+                    <top>1020</top> <!-- Label top = Image top + Image height - 40 -->
+                    <width>441</width> <!-- 20 px narrower than the image -->
+                    <height>40</height> <!-- Always 40 px -->
+                    <label>$INFO[Window(Home).Property(fTVscreensaver.Fanart.Label.5)]</label>
+                    <align>right</align>
+                    <aligny>bottom</aligny>
+                    <textcolor>AA808080</textcolor>
+                    <shadowcolor>55000000</shadowcolor>
+                    <font>font12</font>
                 </control>
             </control>
             <!-- 1/3 fanart 2/3 poster -->
@@ -398,8 +650,20 @@
                     <height>346</height>
                     <width>463</width>
                     <aspectratio align="center">scale</aspectratio>
-                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.FanArt.6)]</texture>
+                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.Fanart.Path.6)]</texture>
                     <fadetime>1000</fadetime>
+                </control>
+                <control type="label">
+                    <left>0</left> <!-- Same position as the image -->
+                    <top>306</top> <!-- Label top = Image top + Image height - 40 -->
+                    <width>443</width> <!-- 20 px narrower than the image -->
+                    <height>40</height> <!-- Always 40 px -->
+                    <label>$INFO[Window(Home).Property(fTVscreensaver.Fanart.Label.6)]</label>
+                    <align>right</align>
+                    <aligny>bottom</aligny>
+                    <textcolor>AA808080</textcolor>
+                    <shadowcolor>55000000</shadowcolor>
+                    <font>font12</font>
                 </control>
                 <!-- #9 2/3 poster -->
                 <control type="image" id="103">
@@ -423,8 +687,20 @@
                     <height>525</height>
                     <width>700</width>
                     <aspectratio align="center">scale</aspectratio>
-                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.FanArt.7)]</texture>
+                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.Fanart.Path.7)]</texture>
                     <fadetime>1000</fadetime>
+                </control>
+                <control type="label">
+                    <left>0</left> <!-- Same position as the image -->
+                    <top>485</top> <!-- Label top = Image top + Image height - 40 -->
+                    <width>680</width> <!-- 20 px narrower than the image -->
+                    <height>40</height> <!-- Always 40 px -->
+                    <label>$INFO[Window(Home).Property(fTVscreensaver.Fanart.Label.7)]</label>
+                    <align>right</align>
+                    <aligny>bottom</aligny>
+                    <textcolor>AA808080</textcolor>
+                    <shadowcolor>55000000</shadowcolor>
+                    <font>font12</font>
                 </control>
                 <!-- #11 1/2 fanart -->
                 <control type="image" id="208">
@@ -433,8 +709,20 @@
                     <height>525</height>
                     <width>700</width>
                     <aspectratio align="center">scale</aspectratio>
-                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.FanArt.8)]</texture>
+                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.Fanart.Path.8)]</texture>
                     <fadetime>1000</fadetime>
+                </control>
+                <control type="label">
+                    <left>0</left> <!-- Same position as the image -->
+                    <top>1020</top> <!-- Label top = Image top + Image height - 40 -->
+                    <width>680</width> <!-- 20 px narrower than the image -->
+                    <height>40</height> <!-- Always 40 px -->
+                    <label>$INFO[Window(Home).Property(fTVscreensaver.Fanart.Label.8)]</label>
+                    <align>right</align>
+                    <aligny>bottom</aligny>
+                    <textcolor>AA808080</textcolor>
+                    <shadowcolor>55000000</shadowcolor>
+                    <font>font12</font>
                 </control>
             </control>
             <!-- poster fanart / fanart poster -->
@@ -458,8 +746,20 @@
                     <height>525</height>
                     <width>700</width>
                     <aspectratio align="center">scale</aspectratio>
-                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.FanArt.9)]</texture>
+                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.Fanart.Path.9)]</texture>
                     <fadetime>1000</fadetime>
+                </control>
+                <control type="label">
+                    <left>0</left> <!-- Same position as the image -->
+                    <top>1020</top> <!-- Label top = Image top + Image height - 40 -->
+                    <width>680</width> <!-- 20 px narrower than the image -->
+                    <height>40</height> <!-- Always 40 px -->
+                    <label>$INFO[Window(Home).Property(fTVscreensaver.Fanart.Label.9)]</label>
+                    <align>right</align>
+                    <aligny>bottom</aligny>
+                    <textcolor>AA808080</textcolor>
+                    <shadowcolor>55000000</shadowcolor>
+                    <font>font12</font>
                 </control>
                 <!-- #14 1/2 fanart -->
                 <control type="image" id="210">
@@ -468,8 +768,20 @@
                     <height>525</height>
                     <width>700</width>
                     <aspectratio align="center">scale</aspectratio>
-                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.FanArt.10)]</texture>
+                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.Fanart.Path.10)]</texture>
                     <fadetime>1000</fadetime>
+                </control>
+                <control type="label">
+                    <left>355</left> <!-- Same position as the image -->
+                    <top>485</top> <!-- Label top = Image top + Image height - 40 -->
+                    <width>680</width> <!-- 20 px narrower than the image -->
+                    <height>40</height> <!-- Always 40 px -->
+                    <label>$INFO[Window(Home).Property(fTVscreensaver.Fanart.Label.10)]</label>
+                    <align>right</align>
+                    <aligny>bottom</aligny>
+                    <textcolor>AA808080</textcolor>
+                    <shadowcolor>55000000</shadowcolor>
+                    <font>font12</font>
                 </control>
                 <!-- #15 poster 1/2 -->
                 <control type="image" id="105">
@@ -493,8 +805,20 @@
                     <height>346</height>
                     <width>461</width>
                     <aspectratio align="center">scale</aspectratio>
-                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.FanArt.11)]</texture>
+                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.Fanart.Path.11)]</texture>
                     <fadetime>1000</fadetime>
+                </control>
+                <control type="label">
+                    <left>0</left> <!-- Same position as the image -->
+                    <top>306</top> <!-- Label top = Image top + Image height - 40 -->
+                    <width>441</width> <!-- 20 px narrower than the image -->
+                    <height>40</height> <!-- Always 40 px -->
+                    <label>$INFO[Window(Home).Property(fTVscreensaver.Fanart.Label.11)]</label>
+                    <align>right</align>
+                    <aligny>bottom</aligny>
+                    <textcolor>AA808080</textcolor>
+                    <shadowcolor>55000000</shadowcolor>
+                    <font>font12</font>
                 </control>
                 <!-- #17 1/3 fanart -->
                 <control type="image" id="212">
@@ -503,8 +827,20 @@
                     <height>347</height>
                     <width>461</width>
                     <aspectratio align="center">scale</aspectratio>
-                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.FanArt.12)]</texture>
+                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.Fanart.Path.12)]</texture>
                     <fadetime>1000</fadetime>
+                </control>
+                <control type="label">
+                    <left>0</left> <!-- Same position as the image -->
+                    <top>663</top> <!-- Label top = Image top + Image height - 40 -->
+                    <width>441</width> <!-- 20 px narrower than the image -->
+                    <height>40</height> <!-- Always 40 px -->
+                    <label>$INFO[Window(Home).Property(fTVscreensaver.Fanart.Label.12)]</label>
+                    <align>right</align>
+                    <aligny>bottom</aligny>
+                    <textcolor>AA808080</textcolor>
+                    <shadowcolor>55000000</shadowcolor>
+                    <font>font12</font>
                 </control>
                 <!-- #18 1/3 fanart -->
                 <control type="image" id="213">
@@ -513,8 +849,20 @@
                     <height>347</height>
                     <width>461</width>
                     <aspectratio align="center">scale</aspectratio>
-                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.FanArt.13)]</texture>
+                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.Fanart.Path.13)]</texture>
                     <fadetime>1000</fadetime>
+                </control>
+                <control type="label">
+                    <left>0</left> <!-- Same position as the image -->
+                    <top>1020</top> <!-- Label top = Image top + Image height - 40 -->
+                    <width>441</width> <!-- 20 px narrower than the image -->
+                    <height>40</height> <!-- Always 40 px -->
+                    <label>$INFO[Window(Home).Property(fTVscreensaver.Fanart.Label.13)]</label>
+                    <align>right</align>
+                    <aligny>bottom</aligny>
+                    <textcolor>AA808080</textcolor>
+                    <shadowcolor>55000000</shadowcolor>
+                    <font>font12</font>
                 </control>
             </control>
             <!-- big poster -->
@@ -543,8 +891,20 @@
                     <height>525</height>
                     <width>700</width>
                     <aspectratio align="center">scale</aspectratio>
-                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.FanArt.14)]</texture>
+                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.Fanart.Path.14)]</texture>
                     <fadetime>1000</fadetime>
+                </control>
+                <control type="label">
+                    <left>0</left> <!-- Same position as the image -->
+                    <top>485</top> <!-- Label top = Image top + Image height - 40 -->
+                    <width>680</width> <!-- 20 px narrower than the image -->
+                    <height>40</height> <!-- Always 40 px -->
+                    <label>$INFO[Window(Home).Property(fTVscreensaver.Fanart.Label.14)]</label>
+                    <align>right</align>
+                    <aligny>bottom</aligny>
+                    <textcolor>AA808080</textcolor>
+                    <shadowcolor>55000000</shadowcolor>
+                    <font>font12</font>
                 </control>
                 <!-- #21 1/2 fanart -->
                 <control type="image" id="215">
@@ -553,8 +913,20 @@
                     <height>525</height>
                     <width>700</width>
                     <aspectratio align="center">scale</aspectratio>
-                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.FanArt.15)]</texture>
+                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.Fanart.Path.15)]</texture>
                     <fadetime>1000</fadetime>
+                </control>
+                <control type="label">
+                    <left>0</left> <!-- Same position as the image -->
+                    <top>1020</top> <!-- Label top = Image top + Image height - 40 -->
+                    <width>680</width> <!-- 20 px narrower than the image -->
+                    <height>40</height> <!-- Always 40 px -->
+                    <label>$INFO[Window(Home).Property(fTVscreensaver.Fanart.Label.15)]</label>
+                    <align>right</align>
+                    <aligny>bottom</aligny>
+                    <textcolor>AA808080</textcolor>
+                    <shadowcolor>55000000</shadowcolor>
+                    <font>font12</font>
                 </control>
             </control>
             <!-- 1/3 fanart 2/3 poster -->
@@ -578,8 +950,20 @@
                     <height>346</height>
                     <width>463</width>
                     <aspectratio align="center">scale</aspectratio>
-                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.FanArt.16)]</texture>
+                    <texture fallback="views/wide.png" background="true">$INFO[Window(Home).Property(fTVscreensaver.Fanart.Path.16)]</texture>
                     <fadetime>1000</fadetime>
+                </control>
+                <control type="label">
+                    <left>0</left> <!-- Same position as the image -->
+                    <top>1020</top> <!-- Label top = Image top + Image height - 40 -->
+                    <width>443</width> <!-- 20 px narrower than the image -->
+                    <height>40</height> <!-- Always 40 px -->
+                    <label>$INFO[Window(Home).Property(fTVscreensaver.Fanart.Label.16)]</label>
+                    <align>right</align>
+                    <aligny>bottom</aligny>
+                    <textcolor>AA808080</textcolor>
+                    <shadowcolor>55000000</shadowcolor>
+                    <font>font12</font>
                 </control>
             </control>
         </control>

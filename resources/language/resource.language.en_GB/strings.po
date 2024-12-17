@@ -42,3 +42,8 @@ msgstr ""
 msgctxt "#30004"
 msgid "Basic Settings"
 msgstr "Basic Settings"
+
+#: /resources/settings.xml
+msgctxt "#30005"
+msgid "Display media title on fanart"
+msgstr "Display media title on fanart"
